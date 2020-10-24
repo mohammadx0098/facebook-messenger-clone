@@ -1,18 +1,29 @@
 .message {
-    padding: 10px;
-    margin: 10px;
-    width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
 }
 .message__user {
-    margin-left: auto;
-    color: white;
-    text-align: right !important;
+  margin-left: auto;
+  color: white;
+  text-align: right !important;
 }
 
 .message__userCard {
-    background-color: #0b81ff !important;
+  background-color: #0b81ff !important;
 }
 
 .message__gustCard {
-    background-color: #e9e9eb !important;
+  background-color: #e9e9eb !important;
+}
+
+.last {
+  margin-bottom: 50px;
+}
+
+.message:last-child {
+  margin-bottom: 25vh;
+}
+.message:first-child {
+  margin-top: 100px;
 }

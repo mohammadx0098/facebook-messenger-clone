@@ -1,23 +1,43 @@
 .App {
   text-align: center;
 }
-.app__form {
-  padding: 20px;
+
+.app__header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.form-container {
   position: fixed;
   bottom: 0;
-  z-index: 1;
+  left: 0;
+  right: 0;
+  width: 100%;
   background-color: #e9e9eb;
-  width: 95%;
-  margin-right: 70px;
-  margin: 20px;
+  z-index: 1;
+}
+
+.app__form {
+  position: relative;
+  z-index: 2;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: 5vh auto;
 }
 .app__formControl {
   display: flex !important;
   flex-direction: row !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .app__input {
   flex: 1;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .app__iconButton {
